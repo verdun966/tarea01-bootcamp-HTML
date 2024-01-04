@@ -2,3 +2,4 @@
 
 Primer tarea de bootcamp-HTML
 
+## Creamos index, segunda, img.
