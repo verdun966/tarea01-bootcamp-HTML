@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Clase 3</h1>
+    <a href="index.html">Volver</a>
+    <hr />
+    <div>
+      <h2>Primer formulario</h2>
+      <form>
+        <input
+          type="text"
+          id="usuario"
+          name="nameUsuario"
+          placeholder="Ingrese su usuario"
+        />
+        <br />
+
+        <input
+          type="password"
+          id="clave"
+          name="nameClave"
+          placeholder="Ingrese su contraseña"
+        />
+        <br />
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+    <hr />
+    <div>
+      <h2>Segundo formulario</h2>
+      <form>
+        <input type="text" name="nombre" placeholder="Nombre/s" required>
+        <br>
+        <input type="text" name="apellido" placeholder="Apellido/s" required>
+        <br>
+        <input type="text" name="usuario" placeholder="Usuario" required>
+        <br>
+        <input type="password" name="clave" placeholder="Contraseña" required>
+        <br>
+        <input type="password" name="clave2" placeholder="Repetir Contraseña" required>
+        <br>
+        <input type="tel" name="telefono" placeholder="Teléfono" required>
+        <br>
+        <input type="email" name="email" placeholder="Correo Electronico" required>
+        <br>
+        <input type="password" name="nombre" placeholder="Contraseña" required>
+        <br />
+        <label for="nacimiento">Fecha de nacimiento</label><br>
+        <input type="date" name="nacimiento" id="nacimiento" required>
+        <br>
+
+        <br>
+        <select name="País" required>
+            <option selected disabled hidden>País de origen</option>
+            <option value="1">Argentina</option>
+            <option value="2">México</option>
+            <option value="3">Venezuela</option>
+            <option value="4">Colombia</option>
+            <option value="5">Chile</option>
+            <option value="5">Australia</option>
+            <option value="6">Perú</option>
+        </select>
+        <br>
+        <label for="">Genero:</label>
+        <input type="radio" id="femenino" name="sexo" value="1" required>
+        <label for="femenino">Femenino</label>
+        <label for="">Sexo</label>
+        
+        <input type="radio" id="masculino" name="sexo" value="2" required>
+        <label for="masculino">Masculino</label>
+        <label for="">Sexo</label>
+        
+        <input type="radio" id="otros" name="sexo" value="3" required>
+        <label for="otros">Otros</label>
+        <br>
+        <input type="checkbox" name="terminos" required> Acepto los términos y condiciones
+        <br>
+        <input type="submit" value="Registrar" />
+        <input type="reset" value="Cancelar">
+    </form>
+    </div>
+  </body>
+</html>
